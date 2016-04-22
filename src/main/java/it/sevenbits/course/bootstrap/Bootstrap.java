@@ -11,7 +11,7 @@ import java.util.Arrays;
  */
 final class Bootstrap {
 
-    private static final Integer[] ARRAY = new Integer[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11};
+    private static final Integer[] ARRAY = new Integer[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,12};
 
     private Bootstrap(){
     }
