@@ -4,23 +4,23 @@ package it.sevenbits.course.entities;
  *
  * @param <T> type of array
  */
-public class Array <T> {
+public class Array <T> implements IArray<T> {
 
     private T[] array;
 
     /**
-     *
-     * @param arr array of T elements
+     * setter
+     * @param array array of T elements
      */
-    public void set(final T[] arr) {
-        this.array = arr;
+    public void setArray(final T[] array) {
+        this.array = array;
     }
 
     /**
-     *
+     * getter
      * @return an array of T elements
      */
-    public T[] get() {
+    public T[] getArray() {
         return this.array;
     }
 }

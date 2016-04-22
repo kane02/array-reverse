@@ -1,7 +1,20 @@
 package it.sevenbits.course.entities;
 
 /**
- * Created by User on 22.04.2016.
+ * Interface for array
+ * @param <T> type
  */
-public interface IArray {
+public interface IArray<T> {
+
+    /**
+     * Setter
+     * @param array incoming arg
+     */
+    void setArray(final T[] array);
+
+    /**
+     * getter
+     * @return array of T elements
+     */
+    T[] getArray();
 }
